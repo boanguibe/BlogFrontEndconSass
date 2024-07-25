@@ -1,0 +1,25 @@
+ @use '../base/typography';
+ 
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 0;
+    gap: 2rem; /* separacion forma nueva */
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .header__logo {
+    margin: 3rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    border: 3px solid $color-vue;
+  }
+  .header__title {
+    font-size: 3rem;
+    font-weight: $font-bold;
+    font-family: $fuentePrincipal;
+  } 

@@ -1,0 +1,25 @@
+@use '../base/typography';
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%; /* 1rem = 10px */
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* Globales */
+  
+  .body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: typography.$fondo-color;
+  }
+
+.linea-dividora {
+   border : 3px solid typography.$borde-color;
+   margin-bottom: 5rem;
+}

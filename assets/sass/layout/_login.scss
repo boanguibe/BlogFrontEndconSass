@@ -1,0 +1,21 @@
+@use '../base/typography';
+@use '../base/base';
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   /*  gap: 1rem; */
+    margin: 2rem auto;
+    width: 30%;
+    align-items: center;
+    border: 1px solid typography.$borde-color;
+    border-radius:  2rem;
+}
+
+.login__title {
+    font-size: 3rem;
+    font-weight: $font-medium;
+    font-family: $fuentePrincipal;
+    padding-top: 1rem;
+}

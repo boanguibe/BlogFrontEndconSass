@@ -1,0 +1,35 @@
+$borde-color: #888383;
+$texto-color: #171717;
+$fondo-color: #FFFFFF;
+
+$color-html : #E93E30;
+$color-css : #299ED5;
+$color-js : #F7E018;
+$color-bootstrap : #563D7C;
+$color-vue : #67C770;
+$color-react : #292C33;
+$color-desafio: #64b92b;
+
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+$fuentePrincipal : 'Poppins', sans-serif;
+
+// Variables
+$primary-color: white;
+$title-size: 20px;
+$subtitle-weight: 400;
+
+ 
+// mixins
+@mixin title {
+   margin: 0;
+}
+ 
+
+// include
+
+h1, h2, h3, h4, h5, h6  {
+    @include title;
+}
+

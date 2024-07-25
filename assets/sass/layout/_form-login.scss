@@ -1,0 +1,14 @@
+@use '../base/typography';
+@use '../base/base';
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem auto;
+    width: 95%;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+

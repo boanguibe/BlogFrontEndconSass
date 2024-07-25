@@ -1,0 +1,50 @@
+@use '../base/typography';
+@use '../base/base';
+@use '../layout/form-login';
+
+ .form__container-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 95%;
+    align-items: center;
+   /*  border: 1px solid red; */
+}
+
+.button {	
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 1rem;
+    border: 1px solid $borde-color;
+    padding: 0 1rem;
+    font-family: $fuentePrincipal;
+    font-size: 1.8rem;
+}
+
+.button--primary {
+    background-color: $color-desafio;
+    color: $primary-color;
+    font-weight: $font-bold;
+}
+.button--secondary {
+    background-color: $primary-color;
+    color: $texto-color;
+    font-weight: $font-bold;
+}
+
+.button--icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5rem;
+    padding: 0;
+}
+
+.form__link--register {
+    font-weight: $font-bold;
+}
