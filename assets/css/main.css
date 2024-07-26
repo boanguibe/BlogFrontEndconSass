@@ -48,7 +48,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__logo {
-  margin: 2rem;
   width: 100px;
   height: 100px;
   border-radius: 10%;
@@ -170,7 +169,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__logo {
-  margin: 2rem;
   width: 100px;
   height: 100px;
   border-radius: 10%;
@@ -425,9 +423,59 @@ html {
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
-  margin: 0 auto;
-  width: 75%;
-  align-items: center;
+  margin: 0 auto 4rem;
+  width: 50%;
   background-color: #64b92b;
+  border-radius: 1rem;
+  padding: 2rem 0;
+}
+
+.suscribir__title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding-top: 1rem;
+  color: white;
+  width: 65%;
+}
+
+.suscribir__box {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  margin: 0 auto;
+  width: 80%;
+  align-items: center;
   border-radius: 2rem;
+}
+
+.suscribir__box--enviar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 2rem;
+}
+
+.suscribir__input {
+  width: 70%;
+  height: 6rem;
+  border-radius: 5px;
+  border: 1px solid #888383;
+  padding: 0 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+.suscribir__button {
+  width: 30%;
+  height: 6rem;
+  border-radius: 5px;
+  border: 1px solid #888383;
+  padding: 0 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: #171717;
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */
