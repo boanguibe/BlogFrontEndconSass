@@ -24,23 +24,27 @@
     border: 1px solid $borde-color;
     padding: 0 1rem;
     font-family: $fuentePrincipal;
-    font-size: 1.8rem;
+}
+
+@mixin texto-size{
+    font-size: 2.5rem;
+    font-weight: $font-bold;
 }
 
 .button--primary {
     background-color: $color-desafio;
     color: $primary-color;
-    font-weight: $font-bold;
+    @include texto-size;
 }
 .button--secondary {
     background-color: $primary-color;
     color: $texto-color;
-    font-weight: $font-bold;
+    @include texto-size;
 }
 
 .button--icon {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 5rem;
     padding: 0;
 }

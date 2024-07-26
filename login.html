@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar</title>
+    <title>Ejercicio Guiado</title>
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
@@ -19,28 +19,32 @@
     <hr class="linea-dividora">
 
     <section class="login">
-        <h3 class="login__title">Resgitrate ¡Es gratis!</h3>
-        <form action="#" class="form-login">
+        <h3 class="login__title">Bienvenido</h3>
+        <form class="form-login">
             <div class="form__container_inputs">
-                <input placeholder="Nombre" type="text" class="input" />
-                <input placeholder="Apellidos" type="text" class="input" />
-                <input placeholder="Email" type="email" class="input" />
-                <input placeholder="Contraseña" type="password" class="input" />
-                <input placeholder="Confirmar contraseña" type="password" class="input" />
+                <input placeholder="Email" type="text" class="input" />
+                <input placeholder="Contraseña" type="text" class="input" />
+            </div>
+            <div class="form__subcontainer">
+                <div class="form__container_checkbox">
+                    <input type="checkbox" class="form__checkbox" />
+                    <label class="form__checkbox_label">Recordarme</label>
+                </div>
+                <a href="#" class="form__link">¿Olvidaste tu contraseña?</a>
             </div>
             <div class="form__container-buttons">
                 <button type="submit" class="button button--primary">
-                    Crear tu cuenta
+                    Iniciar sesión
                 </button>
                 <button type="button" class="button button--secondary" onclick="window.location.href='#'">
                     <img src="assets/img/logos/Google_Icons-09-512.webp" alt="google logo" class="button--icon" />
-                    Registrate con Google
+                    Inicia sesión con Google
                 </button>
             </div>
-            <span class="form__footer-text">¿Ya tienes una cuenta?
-                <a href="login.html" class="form__link form__link--register">Inicia seción</a></span>
+            <span class="form__footer-text">¿No tiene una cuenta?
+                <a href="registrar.html" class="form__link form__link--register">Registrate</a></span>
         </form>
-    </section>
+    </section>    
 
     <hr class="linea-dividora">
 
