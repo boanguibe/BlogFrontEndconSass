@@ -1,0 +1,14 @@
+@use '../base/typography';
+@use '../base/base';
+
+.suscribir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 75%;
+    align-items: center;
+    background-color: $color-desafio;
+    border-radius: 2rem;
+}
