@@ -1,0 +1,89 @@
+@use '../base/typography';
+@use '../base/base';
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1rem;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 80%; 
+    
+}
+
+.principal__title {
+    font-size: 2.8rem;
+    font-weight: $font-bold;
+    font-family: $fuentePrincipal;
+    padding-top: 1rem;
+    color: $texto-color;
+    width: 65%;
+}
+
+.desafio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 1rem;
+    width: 100%; 
+    /* background-color: $color-vue; */
+
+    &__logo {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+    }
+
+    &__texto {
+        font-size: 2.8rem;
+        font-weight: $font-medium;
+        font-family: $fuentePrincipal;
+        padding-top: 1rem;
+        color: $texto-color;
+        width: 25%;
+      /*   background-color:blueviolet ; */
+    }   
+
+    &__fecha {
+        font-size: 2.8rem;
+        font-weight: $font-regular;
+        font-family: $fuentePrincipal;
+        padding-top: 1rem;
+        color: $texto-color;
+      /*   background-color: aquamarine; */
+    }
+}
+
+
+.principal__contenido {
+    display: flex;
+    flex-direction: column;
+/*     justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    width: 100%; 
+    background-color: $fondo-post;
+
+    &__parrafo {
+        font-size: 2.8rem;
+        font-weight: $font-regular;
+        font-family: $fuentePrincipal;
+        text-align: justify;
+        padding-top: 1rem;
+        color: $texto-color;
+        width: 100%; 
+    }
+
+    &__imagen {
+        width: 50%;
+        height: 70%;
+        border-radius: 3rem;
+    }
+
+}

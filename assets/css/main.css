@@ -20,7 +20,7 @@ html {
 .body {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #FFFFFF;
+  background-color: #5478a7;
 }
 
 .linea-dividora {
@@ -80,7 +80,7 @@ html {
 .body {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #FFFFFF;
+  background-color: #5478a7;
 }
 
 .linea-dividora {
@@ -127,7 +127,7 @@ html {
 .body {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #FFFFFF;
+  background-color: #5478a7;
 }
 
 .linea-dividora {
@@ -208,7 +208,114 @@ html {
 .body {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #FFFFFF;
+  background-color: #5478a7;
+}
+
+.linea-dividora {
+  border: 2px solid #888383;
+  margin-bottom: 5rem;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 1rem;
+  padding: 2rem;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.principal__title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding-top: 1rem;
+  color: #171717;
+  width: 65%;
+}
+
+.desafio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 1rem;
+  width: 100%;
+  /* background-color: $color-vue; */
+}
+.desafio__logo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+.desafio__texto {
+  font-size: 2.8rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  padding-top: 1rem;
+  color: #171717;
+  width: 25%;
+  /*   background-color:blueviolet ; */
+}
+.desafio__fecha {
+  font-size: 2.8rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding-top: 1rem;
+  color: #171717;
+  /*   background-color: aquamarine; */
+}
+
+.principal__contenido {
+  display: flex;
+  flex-direction: column;
+  /*     justify-content: center; */
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #e3e5ea;
+}
+.principal__contenido__parrafo {
+  font-size: 2.8rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  padding-top: 1rem;
+  color: #171717;
+  width: 100%;
+}
+.principal__contenido__imagen {
+  width: 50%;
+  height: 70%;
+  border-radius: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Globales */
+.body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #5478a7;
 }
 
 .linea-dividora {
@@ -296,7 +403,7 @@ html {
 .body {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #FFFFFF;
+  background-color: #5478a7;
 }
 
 .linea-dividora {
@@ -410,7 +517,7 @@ html {
 .body {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #FFFFFF;
+  background-color: #5478a7;
 }
 
 .linea-dividora {
