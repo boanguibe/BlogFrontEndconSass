@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 1rem 0;
   align-items: center;
-  margin: 0 auto;
+  margin: 1rem auto;
   width: 80%;
   font-family: "Poppins", sans-serif;
 }
@@ -219,8 +219,6 @@ html {
 .principal {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  /* align-items: center; */
   gap: 1rem;
   padding: 2rem;
   margin: 0 auto;
@@ -243,7 +241,6 @@ html {
   gap: 1.5rem;
   border-radius: 1rem;
   width: 100%;
-  /* background-color: $color-vue; */
 }
 .desafio__logo {
   width: 6rem;
@@ -257,7 +254,6 @@ html {
   padding-top: 1rem;
   color: #171717;
   width: 25%;
-  /*   background-color:blueviolet ; */
 }
 .desafio__fecha {
   font-size: 2.2rem;
@@ -265,7 +261,6 @@ html {
   font-family: "Poppins", sans-serif;
   padding-top: 1rem;
   color: #171717;
-  /*   background-color: aquamarine; */
 }
 
 .principal__contenido {
@@ -290,8 +285,7 @@ html {
   width: 100%;
 }
 .principal__contenido__imagen {
-  width: 50%;
-  height: 70%;
+  width: 60%;
   border-radius: 3rem;
 }
 

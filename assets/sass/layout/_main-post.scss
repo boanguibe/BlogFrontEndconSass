@@ -4,8 +4,6 @@
 .principal {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
     gap: 1rem;
     padding: 2rem;
     margin: 0 auto;
@@ -29,7 +27,6 @@
     gap: 1.5rem;
     border-radius: 1rem;
     width: 100%; 
-    /* background-color: $color-vue; */
 
     &__logo {
         width: 6rem;
@@ -44,7 +41,6 @@
         padding-top: 1rem;
         color: $texto-color;
         width: 25%;
-      /*   background-color:blueviolet ; */
     }   
 
     &__fecha {
@@ -53,7 +49,6 @@
         font-family: $fuentePrincipal;
         padding-top: 1rem;
         color: $texto-color;
-      /*   background-color: aquamarine; */
     }
 }
 
@@ -81,8 +76,7 @@
     }
 
     &__imagen {
-        width: 50%;
-        height: 70%;
+        width: 60%;
         border-radius: 3rem;
     }
 
