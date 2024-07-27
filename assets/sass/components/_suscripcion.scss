@@ -14,7 +14,7 @@
 }
 
 .suscribir__title{
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     font-weight: $font-bold;
     font-family: $fuentePrincipal;
     padding-top: 1rem;
@@ -59,6 +59,5 @@
         width: 30%;
         @include box_enviar;
         color: $texto-color;
-        
         font-weight: $font-bold;
     }
