@@ -220,7 +220,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 2rem;
+  /*  padding: 2rem; */
   margin: 0 auto;
   width: 80%;
 }
@@ -247,7 +247,7 @@ html {
   border-radius: 50%;
 }
 .desafio__texto {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   padding-top: 1rem;
@@ -255,7 +255,7 @@ html {
   width: 25%;
 }
 .desafio__fecha {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   padding-top: 1rem;
@@ -275,7 +275,7 @@ html {
   background-color: #e3e5ea;
 }
 .principal__contenido__parrafo {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   text-align: justify;
@@ -320,8 +320,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 2rem;
-  margin: 0 auto;
+  /*    padding: 2rem; */
+  margin: 2rem auto;
   width: 80%;
   /* background-color: aqua; */
 }
@@ -339,7 +339,7 @@ html {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  gap: 5rem;
+  gap: 4rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -666,9 +666,6 @@ html {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  /*   padding: 2rem 2rem 2rem 0; */
-  justify-content: space-between;
-  /*  background-color: orange; */
 }
 .card__post__imagen {
   display: flex;
@@ -687,19 +684,19 @@ html {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 1rem;
+  /*   padding: 1rem; */
   width: 100%;
   /*  background-color: red; */
 }
 .post__informacion__fecha {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   color: #171717;
   margin: 0;
 }
 .post__informacion__titulo {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   color: #171717;
@@ -719,7 +716,7 @@ html {
   border-radius: 50%;
 }
 .post__desafio__texto {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=main.css.map */
